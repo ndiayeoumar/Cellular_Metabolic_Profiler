@@ -26,8 +26,9 @@ dependencies:
   - statsmodels
   - umap-learn
 
-  # Metabolic modeling
-  - cobra  # cobrapy
+  # Clustering (for microclustering)
+  - leidenalg
+  - python-igraph
 
   # Web application
   - streamlit
@@ -39,8 +40,8 @@ dependencies:
   - black
   - ruff
 
-  # Pip-only packages
+  # Pip packages (cobra has better compatibility via pip on Apple Silicon)
   - pip
   - pip:
-    # Add pip-only packages here as needed
-    # - package-name
+    - cobra>=0.29
+    - pyarrow  # for parquet support
