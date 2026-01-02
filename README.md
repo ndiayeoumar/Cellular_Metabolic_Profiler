@@ -6,13 +6,13 @@ A Python-based tool for biotech researchers to analyze and visualize metabolic p
 
 ---
 
-## 🎯 Project Vision
+## Project Vision
 
 Help researchers **visually explore the metabolic landscape** of their cells to identify biological targets for further investigation. Whether studying immune cells, cancer cells, or stem cells, OmicsPilot provides intuitive visualizations to spot metabolic signatures that distinguish cell populations.
 
 ---
 
-## 🔬 What This Tool Can Do
+## What This Tool Can Do
 
 ### Core Analysis Features
 
@@ -34,7 +34,7 @@ Help researchers **visually explore the metabolic landscape** of their cells to 
 
 ---
 
-## 🧪 Biological Applications
+## Biological Applications
 
 ### Supported Cell Types
 Any cell type with scRNA-seq data with available GEM for the relative organism
@@ -47,7 +47,7 @@ Any cell type with scRNA-seq data with available GEM for the relative organism
 
 ---
 
-## 📊 Data Inputs
+## Data Inputs
 
 | Input Type | Format | Description |
 |------------|--------|-------------|
@@ -61,7 +61,7 @@ Any cell type with scRNA-seq data with available GEM for the relative organism
 
 ---
 
-## 🛠️ Planned Architecture
+## Planned Architecture
 
 ```
 cellmetpro/
@@ -153,12 +153,12 @@ This tool brings these concepts together in an accessible visualization platform
 
 ---
 
-## 📄 License
+## License
 
-MIT License © 2025 Oumar Ndiaye
+MIT License © 2025 Omics Pilot
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.

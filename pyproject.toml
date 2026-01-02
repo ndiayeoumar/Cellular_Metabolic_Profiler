@@ -9,7 +9,7 @@ description = "Cellular Metabolic Profiler - Analyze and visualize metabolic pro
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Oumar Ndiaye", email = "oumar@example.com"}
+    {name = "Oumar Ndiaye", email = "n.oumar@outlook.it"}
 ]
 requires-python = ">=3.10"
 classifiers = [
@@ -59,10 +59,10 @@ all = [
 cellmetpro = "cellmetpro.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/oumarndiaye/Cellular_Metabolic_Profiler"
-Documentation = "https://github.com/oumarndiaye/Cellular_Metabolic_Profiler#readme"
-Repository = "https://github.com/oumarndiaye/Cellular_Metabolic_Profiler"
-Issues = "https://github.com/oumarndiaye/Cellular_Metabolic_Profiler/issues"
+Homepage = "https://github.com/omicspilot/CellMetPro"
+Documentation = "https://github.com/omicspilot/CellMetPro#readme"
+Repository = "https://github.com/omicspilot/CellMetPro"
+Issues = "https://github.com/omicspilot/CellMetPro/issues"
 
 [tool.setuptools.packages.find]
 where = ["."]
@@ -84,6 +84,9 @@ ignore = ["E501"]
 testpaths = ["tests"]
 python_files = ["test_*.py"]
 addopts = "-v --tb=short"
+filterwarnings = [
+    "ignore::DeprecationWarning:.*SwigPy.*",
+]
 
 [tool.mypy]
 python_version = "3.10"
